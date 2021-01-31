@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    font-weight: 500;
+    background-image: url("bgfinal.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.userend {
+    text-align: center;
+    margin-top: 75px;
+}
+
+#textbox {
+    height: 30px;
+    width: 500px;
+    text-align: center;
+    background-color: e7e7e7;
+    font-family: 'montserrat';
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7.5px;
+    transition: 0.5s ease-out;
+}
+
+#textbox:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+    outline: none;
+}
+
+#submitbutton {
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    background-color: e7e7e7;
+    font-family: 'montserrat';
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7.5px;
+}
+
+#submitbutton:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+    outline: none;
+}
+
+.apiend {
+    color: black;
+    position: absolute;
+    text-align: center;
+    height: 550px;
+    width: 560px;
+    /* background-color: e7e7e7; */
+    margin-top: 100px;
+    margin-left: 680px;
+    padding: 40px 40px 40px 40px;
+    transition: .5s ease-in-out;
+}
+
+.apiend * {
+    padding: 5px 10px;
+}
+
+.temp {
+    color: black;
+    font-size: 102px;
+    font-weight: 900;
+    margin: 30px 0px;
+    text-shadow: 2px 10px rgba(255, 255, 255, 0.4);
+}
+
+.descrption {
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 0px 3px rgba(255, 255, 255, 0.4);
+}
+
+.cityname {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.maxandmintemp {
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0px 4px rgba(255, 255, 255, 0.4);
+    margin-bottom: 5px;
+}
+
+.feelslike {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.humidityandpressure {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.weathericon {
+    visibility: hidden;
+}
